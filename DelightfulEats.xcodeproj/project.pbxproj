@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5017EB5BDCE0B9A21C94D67D /* Pods_DelightfulEats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3414B72F1ABD59E1DC55505 /* Pods_DelightfulEats.framework */; };
+		A941F89F2A1FB7BF00974D34 /* MealImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941F89D2A1FB7BF00974D34 /* MealImageTableViewCell.swift */; };
+		A941F8A02A1FB7BF00974D34 /* MealImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A941F89E2A1FB7BF00974D34 /* MealImageTableViewCell.xib */; };
+		A941F8A32A1FBB7E00974D34 /* MealDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941F8A12A1FBB7E00974D34 /* MealDescriptionTableViewCell.swift */; };
+		A941F8A42A1FBB7E00974D34 /* MealDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A941F8A22A1FBB7E00974D34 /* MealDescriptionTableViewCell.xib */; };
+		A977420C2A1ED8130003CAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A977420B2A1ED8130003CAAF /* AppDelegate.swift */; };
+		A977420E2A1ED8130003CAAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A977420D2A1ED8130003CAAF /* SceneDelegate.swift */; };
+		A97742102A1ED8130003CAAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A977420F2A1ED8130003CAAF /* ViewController.swift */; };
+		A97742132A1ED8130003CAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97742112A1ED8130003CAAF /* Main.storyboard */; };
+		A97742152A1ED8170003CAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97742142A1ED8170003CAAF /* Assets.xcassets */; };
+		A97742182A1ED8170003CAAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97742162A1ED8170003CAAF /* LaunchScreen.storyboard */; };
+		A97742232A1ED8170003CAAF /* DelightfulEatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97742222A1ED8170003CAAF /* DelightfulEatsTests.swift */; };
+		A977422D2A1ED8170003CAAF /* DelightfulEatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A977422C2A1ED8170003CAAF /* DelightfulEatsUITests.swift */; };
+		A977422F2A1ED8170003CAAF /* DelightfulEatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A977422E2A1ED8170003CAAF /* DelightfulEatsUITestsLaunchTests.swift */; };
+		A977423D2A1EE6050003CAAF /* DishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A977423B2A1EE6050003CAAF /* DishTableViewCell.swift */; };
+		A977423E2A1EE6050003CAAF /* DishTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A977423C2A1EE6050003CAAF /* DishTableViewCell.xib */; };
+		A982ED2D2A1F0EDC00D94231 /* DishDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A982ED2C2A1F0EDB00D94231 /* DishDetailsVC.swift */; };
+		A982ED2F2A1F0EE800D94231 /* DishDetailsVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A982ED2E2A1F0EE700D94231 /* DishDetailsVC.storyboard */; };
+		A982ED312A1F0FC900D94231 /* UIStoryboard+Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A982ED302A1F0FC900D94231 /* UIStoryboard+Instantiate.swift */; };
+		A9A2BA092A2014D40094D71B /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A2BA082A2014D40094D71B /* UIKitExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A977421F2A1ED8170003CAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97742002A1ED8120003CAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97742072A1ED8120003CAAF;
+			remoteInfo = DelightfulEats;
+		};
+		A97742292A1ED8170003CAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97742002A1ED8120003CAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97742072A1ED8120003CAAF;
+			remoteInfo = DelightfulEats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1809042F76B2FC1183FC5945 /* Pods-DelightfulEats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightfulEats.debug.xcconfig"; path = "Target Support Files/Pods-DelightfulEats/Pods-DelightfulEats.debug.xcconfig"; sourceTree = "<group>"; };
+		A3414B72F1ABD59E1DC55505 /* Pods_DelightfulEats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelightfulEats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A941F89D2A1FB7BF00974D34 /* MealImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealImageTableViewCell.swift; sourceTree = "<group>"; };
+		A941F89E2A1FB7BF00974D34 /* MealImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealImageTableViewCell.xib; sourceTree = "<group>"; };
+		A941F8A12A1FBB7E00974D34 /* MealDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		A941F8A22A1FBB7E00974D34 /* MealDescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		A97742082A1ED8120003CAAF /* DelightfulEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelightfulEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A977420B2A1ED8130003CAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A977420D2A1ED8130003CAAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A977420F2A1ED8130003CAAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A97742122A1ED8130003CAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A97742142A1ED8170003CAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97742172A1ED8170003CAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A97742192A1ED8170003CAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A977421E2A1ED8170003CAAF /* DelightfulEatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelightfulEatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97742222A1ED8170003CAAF /* DelightfulEatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightfulEatsTests.swift; sourceTree = "<group>"; };
+		A97742282A1ED8170003CAAF /* DelightfulEatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelightfulEatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A977422C2A1ED8170003CAAF /* DelightfulEatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightfulEatsUITests.swift; sourceTree = "<group>"; };
+		A977422E2A1ED8170003CAAF /* DelightfulEatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightfulEatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A977423B2A1EE6050003CAAF /* DishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishTableViewCell.swift; sourceTree = "<group>"; };
+		A977423C2A1EE6050003CAAF /* DishTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishTableViewCell.xib; sourceTree = "<group>"; };
+		A982ED2C2A1F0EDB00D94231 /* DishDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailsVC.swift; sourceTree = "<group>"; };
+		A982ED2E2A1F0EE700D94231 /* DishDetailsVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DishDetailsVC.storyboard; sourceTree = "<group>"; };
+		A982ED302A1F0FC900D94231 /* UIStoryboard+Instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Instantiate.swift"; sourceTree = "<group>"; };
+		A9A2BA082A2014D40094D71B /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		AAFD64D72943430EAA393586 /* Pods-DelightfulEats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelightfulEats.release.xcconfig"; path = "Target Support Files/Pods-DelightfulEats/Pods-DelightfulEats.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97742052A1ED8120003CAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5017EB5BDCE0B9A21C94D67D /* Pods_DelightfulEats.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A977421B2A1ED8170003CAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97742252A1ED8170003CAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C1B4C55301F0C035AFE05B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1809042F76B2FC1183FC5945 /* Pods-DelightfulEats.debug.xcconfig */,
+				AAFD64D72943430EAA393586 /* Pods-DelightfulEats.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90F2CA095EF333277306F518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3414B72F1ABD59E1DC55505 /* Pods_DelightfulEats.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97741FF2A1ED8120003CAAF = {
+			isa = PBXGroup;
+			children = (
+				A977420A2A1ED8130003CAAF /* DelightfulEats */,
+				A97742212A1ED8170003CAAF /* DelightfulEatsTests */,
+				A977422B2A1ED8170003CAAF /* DelightfulEatsUITests */,
+				A97742092A1ED8120003CAAF /* Products */,
+				22C1B4C55301F0C035AFE05B /* Pods */,
+				90F2CA095EF333277306F518 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A97742092A1ED8120003CAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97742082A1ED8120003CAAF /* DelightfulEats.app */,
+				A977421E2A1ED8170003CAAF /* DelightfulEatsTests.xctest */,
+				A97742282A1ED8170003CAAF /* DelightfulEatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A977420A2A1ED8130003CAAF /* DelightfulEats */ = {
+			isa = PBXGroup;
+			children = (
+				A977420B2A1ED8130003CAAF /* AppDelegate.swift */,
+				A977420D2A1ED8130003CAAF /* SceneDelegate.swift */,
+				A9A2BA062A2013D40094D71B /* ViewController */,
+				A9A2BA052A2013C10094D71B /* TableViewCell */,
+				A9A2BA072A20141E0094D71B /* Utility */,
+				A97742142A1ED8170003CAAF /* Assets.xcassets */,
+				A97742162A1ED8170003CAAF /* LaunchScreen.storyboard */,
+				A97742192A1ED8170003CAAF /* Info.plist */,
+			);
+			path = DelightfulEats;
+			sourceTree = "<group>";
+		};
+		A97742212A1ED8170003CAAF /* DelightfulEatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A97742222A1ED8170003CAAF /* DelightfulEatsTests.swift */,
+			);
+			path = DelightfulEatsTests;
+			sourceTree = "<group>";
+		};
+		A977422B2A1ED8170003CAAF /* DelightfulEatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A977422C2A1ED8170003CAAF /* DelightfulEatsUITests.swift */,
+				A977422E2A1ED8170003CAAF /* DelightfulEatsUITestsLaunchTests.swift */,
+			);
+			path = DelightfulEatsUITests;
+			sourceTree = "<group>";
+		};
+		A982ED322A1F231C00D94231 /* DishDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				A982ED2C2A1F0EDB00D94231 /* DishDetailsVC.swift */,
+				A982ED2E2A1F0EE700D94231 /* DishDetailsVC.storyboard */,
+			);
+			path = DishDetailsVC;
+			sourceTree = "<group>";
+		};
+		A982ED332A1F233200D94231 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A977420F2A1ED8130003CAAF /* ViewController.swift */,
+				A97742112A1ED8130003CAAF /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A9A2BA032A2013A00094D71B /* MealImageTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A941F89D2A1FB7BF00974D34 /* MealImageTableViewCell.swift */,
+				A941F89E2A1FB7BF00974D34 /* MealImageTableViewCell.xib */,
+			);
+			path = MealImageTableViewCell;
+			sourceTree = "<group>";
+		};
+		A9A2BA042A2013AA0094D71B /* MealDescriptionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A941F8A12A1FBB7E00974D34 /* MealDescriptionTableViewCell.swift */,
+				A941F8A22A1FBB7E00974D34 /* MealDescriptionTableViewCell.xib */,
+			);
+			path = MealDescriptionTableViewCell;
+			sourceTree = "<group>";
+		};
+		A9A2BA052A2013C10094D71B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2BA032A2013A00094D71B /* MealImageTableViewCell */,
+				A9A2BA042A2013AA0094D71B /* MealDescriptionTableViewCell */,
+				A9D1B1292A1F0AD300E7063E /* DishTableViewCell */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		A9A2BA062A2013D40094D71B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A982ED322A1F231C00D94231 /* DishDetailsVC */,
+				A982ED332A1F233200D94231 /* ViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A9A2BA072A20141E0094D71B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A982ED302A1F0FC900D94231 /* UIStoryboard+Instantiate.swift */,
+				A9A2BA082A2014D40094D71B /* UIKitExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A9D1B1292A1F0AD300E7063E /* DishTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A977423B2A1EE6050003CAAF /* DishTableViewCell.swift */,
+				A977423C2A1EE6050003CAAF /* DishTableViewCell.xib */,
+			);
+			path = DishTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A97742072A1ED8120003CAAF /* DelightfulEats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97742322A1ED8170003CAAF /* Build configuration list for PBXNativeTarget "DelightfulEats" */;
+			buildPhases = (
+				BEABA21F63D0264D6D17C770 /* [CP] Check Pods Manifest.lock */,
+				A97742042A1ED8120003CAAF /* Sources */,
+				A97742052A1ED8120003CAAF /* Frameworks */,
+				A97742062A1ED8120003CAAF /* Resources */,
+				D4B528ED0BE0B3843E0D752C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelightfulEats;
+			productName = DelightfulEats;
+			productReference = A97742082A1ED8120003CAAF /* DelightfulEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A977421D2A1ED8170003CAAF /* DelightfulEatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97742352A1ED8170003CAAF /* Build configuration list for PBXNativeTarget "DelightfulEatsTests" */;
+			buildPhases = (
+				A977421A2A1ED8170003CAAF /* Sources */,
+				A977421B2A1ED8170003CAAF /* Frameworks */,
+				A977421C2A1ED8170003CAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97742202A1ED8170003CAAF /* PBXTargetDependency */,
+			);
+			name = DelightfulEatsTests;
+			productName = DelightfulEatsTests;
+			productReference = A977421E2A1ED8170003CAAF /* DelightfulEatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A97742272A1ED8170003CAAF /* DelightfulEatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97742382A1ED8170003CAAF /* Build configuration list for PBXNativeTarget "DelightfulEatsUITests" */;
+			buildPhases = (
+				A97742242A1ED8170003CAAF /* Sources */,
+				A97742252A1ED8170003CAAF /* Frameworks */,
+				A97742262A1ED8170003CAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A977422A2A1ED8170003CAAF /* PBXTargetDependency */,
+			);
+			name = DelightfulEatsUITests;
+			productName = DelightfulEatsUITests;
+			productReference = A97742282A1ED8170003CAAF /* DelightfulEatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97742002A1ED8120003CAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A97742072A1ED8120003CAAF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A977421D2A1ED8170003CAAF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A97742072A1ED8120003CAAF;
+					};
+					A97742272A1ED8170003CAAF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A97742072A1ED8120003CAAF;
+					};
+				};
+			};
+			buildConfigurationList = A97742032A1ED8120003CAAF /* Build configuration list for PBXProject "DelightfulEats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97741FF2A1ED8120003CAAF;
+			productRefGroup = A97742092A1ED8120003CAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97742072A1ED8120003CAAF /* DelightfulEats */,
+				A977421D2A1ED8170003CAAF /* DelightfulEatsTests */,
+				A97742272A1ED8170003CAAF /* DelightfulEatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A97742062A1ED8120003CAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97742182A1ED8170003CAAF /* LaunchScreen.storyboard in Resources */,
+				A977423E2A1EE6050003CAAF /* DishTableViewCell.xib in Resources */,
+				A982ED2F2A1F0EE800D94231 /* DishDetailsVC.storyboard in Resources */,
+				A97742152A1ED8170003CAAF /* Assets.xcassets in Resources */,
+				A941F8A42A1FBB7E00974D34 /* MealDescriptionTableViewCell.xib in Resources */,
+				A941F8A02A1FB7BF00974D34 /* MealImageTableViewCell.xib in Resources */,
+				A97742132A1ED8130003CAAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A977421C2A1ED8170003CAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97742262A1ED8170003CAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEABA21F63D0264D6D17C770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DelightfulEats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B528ED0BE0B3843E0D752C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DelightfulEats/Pods-DelightfulEats-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DelightfulEats/Pods-DelightfulEats-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DelightfulEats/Pods-DelightfulEats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97742042A1ED8120003CAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A2BA092A2014D40094D71B /* UIKitExtension.swift in Sources */,
+				A97742102A1ED8130003CAAF /* ViewController.swift in Sources */,
+				A977423D2A1EE6050003CAAF /* DishTableViewCell.swift in Sources */,
+				A977420C2A1ED8130003CAAF /* AppDelegate.swift in Sources */,
+				A977420E2A1ED8130003CAAF /* SceneDelegate.swift in Sources */,
+				A982ED2D2A1F0EDC00D94231 /* DishDetailsVC.swift in Sources */,
+				A982ED312A1F0FC900D94231 /* UIStoryboard+Instantiate.swift in Sources */,
+				A941F89F2A1FB7BF00974D34 /* MealImageTableViewCell.swift in Sources */,
+				A941F8A32A1FBB7E00974D34 /* MealDescriptionTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A977421A2A1ED8170003CAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97742232A1ED8170003CAAF /* DelightfulEatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97742242A1ED8170003CAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A977422D2A1ED8170003CAAF /* DelightfulEatsUITests.swift in Sources */,
+				A977422F2A1ED8170003CAAF /* DelightfulEatsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A97742202A1ED8170003CAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97742072A1ED8120003CAAF /* DelightfulEats */;
+			targetProxy = A977421F2A1ED8170003CAAF /* PBXContainerItemProxy */;
+		};
+		A977422A2A1ED8170003CAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97742072A1ED8120003CAAF /* DelightfulEats */;
+			targetProxy = A97742292A1ED8170003CAAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A97742112A1ED8130003CAAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97742122A1ED8130003CAAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A97742162A1ED8170003CAAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97742172A1ED8170003CAAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A97742302A1ED8170003CAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A97742312A1ED8170003CAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97742332A1ED8170003CAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1809042F76B2FC1183FC5945 /* Pods-DelightfulEats.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DelightfulEats/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fetch.DelightfulEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A97742342A1ED8170003CAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFD64D72943430EAA393586 /* Pods-DelightfulEats.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DelightfulEats/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fetch.DelightfulEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A97742362A1ED8170003CAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fetch.DelightfulEatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelightfulEats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DelightfulEats";
+			};
+			name = Debug;
+		};
+		A97742372A1ED8170003CAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fetch.DelightfulEatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelightfulEats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DelightfulEats";
+			};
+			name = Release;
+		};
+		A97742392A1ED8170003CAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fetch.DelightfulEatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DelightfulEats;
+			};
+			name = Debug;
+		};
+		A977423A2A1ED8170003CAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fetch.DelightfulEatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DelightfulEats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97742032A1ED8120003CAAF /* Build configuration list for PBXProject "DelightfulEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97742302A1ED8170003CAAF /* Debug */,
+				A97742312A1ED8170003CAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97742322A1ED8170003CAAF /* Build configuration list for PBXNativeTarget "DelightfulEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97742332A1ED8170003CAAF /* Debug */,
+				A97742342A1ED8170003CAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97742352A1ED8170003CAAF /* Build configuration list for PBXNativeTarget "DelightfulEatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97742362A1ED8170003CAAF /* Debug */,
+				A97742372A1ED8170003CAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97742382A1ED8170003CAAF /* Build configuration list for PBXNativeTarget "DelightfulEatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97742392A1ED8170003CAAF /* Debug */,
+				A977423A2A1ED8170003CAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97742002A1ED8120003CAAF /* Project object */;
+}
